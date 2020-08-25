@@ -10,7 +10,7 @@ export default defineComponent({
   name: "Home",
   setup() {
     const x = ref(0);
-    setTimeout(() => eval("myFunction();"), 2000);
+    setTimeout(() => eval("myFunction2();"), 2000);
     return { x };
   }
 });
