@@ -1,13 +1,20 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view />
+    counter <button @click="x++">increase</button>
+    {{ x }}
   </div>
 </template>
-
+<script lang="ts">
+import { defineComponent, onMounted, ref } from "@vue/composition-api";
+export default defineComponent({
+  name: "Home",
+  setup() {
+    const x = ref(0);
+    setTimeout(() => eval("myFunction();"), 2000);
+    return { x };
+  }
+});
+</script>
 <style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
