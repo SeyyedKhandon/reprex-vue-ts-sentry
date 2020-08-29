@@ -2,6 +2,10 @@
 
 ## Important Note:
 You should Config `sentry.properties` and `src/sentry.ts`
+### `sentry.properties`
+#org: Settings -> General Settings-> Name
+#project: Projects -> Name
+#token: Profile->user settings->auth tokens
 
 ## Project setup
 ```
