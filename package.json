@@ -1,5 +1,5 @@
 {
-  "name": "sentry",
+  "name": "reprex-vue-ts-sentry",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,9 +9,9 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "@sentry/browser": "^5.21.4",
-    "@sentry/integrations": "^5.21.4",
-    "@vue/composition-api": "^1.0.0-beta.11",
+    "@sentry/browser": "^5.22.3",
+    "@sentry/integrations": "^5.22.3",
+    "@sentry/webpack-plugin": "^1.12.1",
     "core-js": "^3.6.5",
     "register-service-worker": "^1.7.1",
     "vue": "^2.6.11",

@@ -1,4 +1,7 @@
-# sentry
+# reprex-vue-ts-sentry
+
+## Important Note:
+You should Config `sentry.properties` and `src/sentry.ts`
 
 ## Project setup
 ```
